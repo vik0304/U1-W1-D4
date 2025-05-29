@@ -207,14 +207,30 @@ iframe{
     text-align: right;
 }
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+.box-footer {
+    width : 460px;
+    margin: 35px 20px;
+    text-align: center;
+    padding: 40px 20px;   
+    background: #006688;
+    background: linear-gradient(0deg, rgba(42,51,56,255), rgba(0,85,102,255));
+    box-shadow: -1px 3px 3px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+}
 
+.box-footer p{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-top: 0.6em;
+    font-weight: 500;
+    padding: 10px;
+}
 
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
+.box-footer a {
+    color: rgb(224, 1, 187);
+    text-decoration: underline;
+    font-size: 1em;
+    margin-top: 0.6em;
+    font-weight: 500;
+}
