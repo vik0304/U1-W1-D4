@@ -121,10 +121,13 @@ ol li {
     margin-left: 35px;
 }
 
+
 table th {
     background: #3366CC;
     color: white;
     padding: 1em 1em;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
 }
 
 table td{
