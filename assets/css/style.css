@@ -1,4 +1,4 @@
-/* IMPOSTAZIONI GENERALI */
+
 body {
     width: 500px;
     margin: 0 auto;
@@ -7,7 +7,6 @@ body {
 }
 
 
-/* HEADER */
 
 header img {
     width: 300px
@@ -47,12 +46,6 @@ i.fas {
   margin: 0 0.3em;
 }
 
-/* header ul {
-    margin-top: 1em;
-} */
-
-/* MAIN */
-
 .box-content {
     width: 460px;
     margin: 20px;
@@ -90,6 +83,16 @@ main h1 {
     color: #000000;
     font-weight: 300;
     line-height: 1.3em;
+}
+
+code {
+
+    font-size: 1em;
+    color: #000000;
+    background-color: #e2e2e2;
+    padding: 0;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
 }
 
 .highlight {
@@ -136,6 +139,10 @@ table {
     border-bottom: 2px solid #3366CC;
     margin-left: auto;
     margin-right: auto;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0;
 }
 
 main a {
@@ -211,7 +218,7 @@ iframe{
     width : 460px;
     margin: 35px 20px;
     text-align: center;
-    padding: 40px 20px;   
+    padding: 10px 0 30px 0;   
     background: #006688;
     background: linear-gradient(0deg, rgba(42,51,56,255), rgba(0,85,102,255));
     box-shadow: -1px 3px 3px 0px rgba(0,0,0,0.75);
