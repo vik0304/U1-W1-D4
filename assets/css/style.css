@@ -206,7 +206,12 @@ iframe{
     margin-bottom: 1em;
 }
 
+
 .related-articles p:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.related-articles a {
     margin-bottom: 1em;
 }
 
